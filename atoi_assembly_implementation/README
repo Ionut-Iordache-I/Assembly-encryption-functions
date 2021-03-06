@@ -1,0 +1,12 @@
+In the atoi_func file I implemented the similar functionality of the atoi function in C:
+int iocla_atoi (char * token).
+In the main function I added on the stack string_buffer which is the address where the string I want to convert to type int is located.
+In the atoi_f function, I initially kept the string in edx, after which I transformed each character in this string into the number that
+I added to the final number to create the number that results from the string as original atoi function implementation does.
+I kept the final result in the eax register which I displayed both as int and as hexa. 
+
+How to see if it works ?
+Type in the console as it follows:
+make build
+./atoi_func
+make clear
