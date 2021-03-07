@@ -1,4 +1,4 @@
-# Assembly-encryption-functions-
+# Assembly-encryption-functions
 In this project I wanted to implement some functions of encryption or processing of a string to gain a better understanding of how to think and program in assembly. 
    This repository contains the implementation of several functions of encryption or processing of a string.
 The function parameters are placed in the registers. The result of each function will be placed in the first parameter of the function and the final exercise makes the display without using the PRINTF32 macro,external functions or system calls. 
